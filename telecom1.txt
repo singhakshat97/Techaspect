@@ -1,0 +1,12 @@
+// creating a table in database
+
+create table details(plan_name varchar(30),monthly_rental int primary,free_calls int,free_data int,free_sms int);
+insert into details("southgoldplan",300,100,2.5,100);
+
+//retrieving data 
+
+select monthly_rental
+from details;
+
+select monthly_rental,free_sms
+from details;
