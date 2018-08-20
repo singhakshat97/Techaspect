@@ -1,0 +1,13 @@
+//for the creation of form
+
+<html>
+<body>
+<form>
+ Plan Name:<input type="text" name="planname" value="Plan Name"></br>
+ Monthly Rental<input type="text" value="monthlyrental"></br>
+ Free Internet<input type="text" value="Freeinternet"></br>
+ Call Charges<input type="text" value="callcharges"></br>
+ Data Charges<input type="text" value="datacharges"></br>
+ <input type="Submit" value="Submit"></br>
+</form>
+
